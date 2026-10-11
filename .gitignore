@@ -1,0 +1,47 @@
+
+# Node.js
+node_modules/
+frontend/node_modules/
+dist/
+build/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Model files and downloaded weights
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
