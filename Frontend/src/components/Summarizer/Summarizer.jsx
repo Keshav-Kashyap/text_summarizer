@@ -26,7 +26,7 @@ const handleSummarize = async () => {
 
   try {
     const response = await axios.post(
-      "http://127.0.0.1:8000/summarize/",
+      "https://text-summarizer-backend-dh6z.onrender.com/summarize/",
       {
         dialogue: text,
       },
